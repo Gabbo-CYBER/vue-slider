@@ -34,12 +34,25 @@ createApp({
 
     data() {
         return {
-          myObject: {
-            title: 'Marvel\'s Spiderman Miles Morale',
-            text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
-            image: 'img/01.webp',
-          }
+            images: [
+                "./img/01.webp",
+                "./img/02.webp",
+                "./img/03.webp",
+                "./img/04.webp",
+                "./img/05.webp",
+
+            ]
+
         }
-      }
+    },
+    methos: {
+
+
+
+
+    },
+
+
+
 
 }).mount('#app')

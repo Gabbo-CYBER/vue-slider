@@ -12,16 +12,9 @@
 <body>
 
     <div id="app">
-
-        <div class="container">
-            <div class="slider-wrapper" tabindex="0">
-
-                <div class="item">
-                    <ul>
-                        <li v-for="value in myObject">
-                          {{ value }}
-                        </li>
-                      </ul>
+                <div class="slide"  v-for="image in images">
+                    <img :src="image" alt="">
+                
                    
                 </div>
 
