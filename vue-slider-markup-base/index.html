@@ -12,10 +12,13 @@
 <body>
 
     <div id="app">
-                <div class="slide"  v-for="image in images">
+                <div class="slide"  v-for="image, i in images">
                     <img :src="image" alt="">
-                
-                   
+                </div>
+                <div id="thumbmailsContainer">
+                    <img v-for="thumbnail in images" :src="thumbnail">
+
+
                 </div>
 
             </div>
